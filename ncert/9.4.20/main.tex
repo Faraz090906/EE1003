@@ -132,21 +132,21 @@ rearrange the terms
 comparing the terms
 
 \begin{align}
-    P\brak{t + h} &= P\brak{t} + h \times \frac{P}{10}
+    P\brak{t + h} &= P\brak{t} + h \times 0.06931 \times P
 \end{align}
 
 Let $\brak{t_0, P_0}$ be the initial conditions then 
 
 \begin{align}
     t_1 &= t_0 + h\\
-    P_1 &= P_0 + h \times \frac{P_0}{10}
+    P_1 &= P_0 + h \times 0.06931 \times P_0
 \end{align}
 
 Generalizing this 
 
 \begin{align}
     t_{n+1} &= t_{n}+h \\
-    P_{n+1} &= P_{n}+h \times \frac{P_n}{10}
+    P_{n+1} &= P_{n}+h \times 0.06931 \times P_n
 \end{align}
 Where h is step and is small.
 We iterate this by taking the initial conditions from $t = 0$ to $t = 10$\\
