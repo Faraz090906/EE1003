@@ -116,36 +116,36 @@ At $t = 10$, the principal doubles, that is, $P = 200$, using equation \eqref{4}
     r &= 6.931
 \end{align}
 
+The differential equation 
+\begin{align}
+    \frac{dP}{dt} &= 0.06931 \times P \label{diffeq}
+\end{align}
 
-\textbf{Verification of the solution computationally:}
+\textbf{Verification of the solution computationally:}\\
+\textbf{Euler's Method:}
 
 From the definition of $\frac{dy}{dx}$,
 \begin{align}
-    \frac{dy}{dx} \approx \frac{y\brak{x + h} - y\brak{x}}{h}
+    \frac{dy}{dx} &\approx \frac{y\brak{x + h} - y\brak{x}}{h}\\
+    \frac{dy}{dx} &= \frac{y_{n+1} - y_n}{h}
 \end{align}
 
-rearrange the terms 
+As per the question
 
 \begin{align}
-    y\brak{x + h} &= y\brak{x} + h \times \frac{dy}{dx}
+    \frac{dP}{dt} &= \frac{P_{n+1} - P_n}{h}
 \end{align}
 
-comparing the terms
+substitute \eqref{diffeq}
 
 \begin{align}
-    P\brak{t + h} &= P\brak{t} + h \times 0.06931 \times P
+    \frac{P_{n+1} - P_n}{h} &= 0.06931\times P_n
 \end{align}
 
-Let $\brak{t_0, P_0}$ be the initial conditions then 
+We represent the the differential equation in the following difference equations:
 
 \begin{align}
-    t_1 &= t_0 + h\\
-    P_1 &= P_0 + h \times 0.06931 \times P_0 \label{equa}
-\end{align}
-
-Generalizing this 
-
-\begin{align}
+    P_{n+1} - P_n &= 0.06931\times P_n \times h\\
     t_{n+1} &= t_{n}+h \\
     P_{n+1} &= P_{n}+h \times 0.06931 \times P_n
 \end{align}
