@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.23)  15 JAN 2025 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.23)  15 JAN 2025 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1895,26 +1895,13 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
@@ -1922,19 +1909,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 <figs/fig.png, id=96, 722.7pt x 433.62pt>
 File: figs/fig.png Graphic file (type png)
 <use figs/fig.png>
-Package pdftex.def Info: figs/fig.png  used on input line 169.
+Package pdftex.def Info: figs/fig.png  used on input line 170.
 (pdftex.def)             Requested size: 364.1953pt x 218.51653pt.
 [4 <./figs/fig.png>] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1953,7 +1937,7 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 87537 bytes).
+Output written on main.pdf (4 pages, 87546 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
