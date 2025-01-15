@@ -30,9 +30,9 @@ lib.gradient_descent.argtypes = [
 
 # Define the quadratic function in Python for gradient descent
 def f(x):
-    a = 4 * np.pi**2 + np.pi
-    b = -112 * np.pi
-    c = 784
+    a = np.pi**2/4 + np.pi
+    b = -7 * np.pi
+    c = 49
     return 2 * a * x + b
 
 # Convert Python function to C function pointer
@@ -40,9 +40,9 @@ C_FUNC_TYPE = ctypes.CFUNCTYPE(ctypes.c_double, ctypes.c_double)
 f_c = C_FUNC_TYPE(f)
 
 # Constants
-a = 4 * np.pi**2 + np.pi
-b = -112 * np.pi
-c = 784
+a = np.pi**2 / 4 + np.pi
+b = -7 * np.pi
+c = 49
 x_0 = 0
 x_end = 14 / np.pi
 n = 1000
