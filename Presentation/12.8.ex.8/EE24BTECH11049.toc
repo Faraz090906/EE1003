@@ -1,0 +1,6 @@
+\beamer@sectionintoc {2}{problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Numerical Solution}{7}{0}{2}
+\beamer@subsectionintoc {3}{2}{Computational method}{8}{0}{2}
+\beamer@subsectionintoc {3}{3}{Result}{10}{0}{2}
+\beamer@subsectionintoc {3}{4}{Plot}{11}{0}{2}

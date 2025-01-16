@@ -1,0 +1,26 @@
+\frametitle{Trapezoidal Rule}
+\begin{itemize}
+    \item Split the interval \sbrak{0,2} into N parts
+    \begin{align}
+        h = \frac{2 - 0}{N}
+    \end{align}
+    \item Consider the points
+    \begin{align}
+        x_0 &= 0\\
+        x_N &= 2\\
+        x_{i + 1} &= x_i + h
+    \end{align}
+    \item \textbf{Trapezoidal rule}\\
+    Summing the areas of the trapezoids formed, we approximate the area between the line and curve
+    Let
+    \begin{align}
+        A = \int_0^2{\brak{3\sqrt{4 - x^2} - \brak{6 - 3x}}\,dx}
+    \end{align}
+    \item It can be approximated as
+    \begin{align}
+        f(x) &= 3\sqrt{4 - x^2} - 6 + 3x \\
+        A &\approx \frac{h}{2} \sum_{i = 1}^{N}{\brak{f\brak{x_{i - 1}} + f\brak{x_i}}}\\
+        j_{i + 1} &= j_i + \frac{h}{2}\brak{f\brak{x_i} + f\brak{x_{i + 1}}}\\
+        j_{i + 1} &= j_i + \frac{h}{2}\brak{3\sqrt{4 - x_i^2} - 6 + 3x_i + 3\sqrt{4 - x_{i+1}^2} - 6 + 3x_{i + 1}}
+    \end{align}
+\end{itemize}

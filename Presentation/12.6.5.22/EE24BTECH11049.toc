@@ -1,0 +1,7 @@
+\beamer@sectionintoc {2}{Problem Statement}{3}{0}{1}
+\beamer@sectionintoc {3}{Paramters and Values}{4}{0}{2}
+\beamer@sectionintoc {4}{Solution}{5}{0}{3}
+\beamer@subsectionintoc {4}{1}{Theoretical}{5}{0}{3}
+\beamer@subsectionintoc {4}{2}{Computational}{9}{0}{3}
+\beamer@subsectionintoc {4}{3}{CVXPY}{14}{0}{3}
+\beamer@sectionintoc {5}{Plot}{15}{0}{4}
