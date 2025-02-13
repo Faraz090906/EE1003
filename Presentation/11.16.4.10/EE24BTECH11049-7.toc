@@ -1,0 +1,7 @@
+\beamer@sectionintoc {2}{Problem}{4}{0}{1}
+\beamer@sectionintoc {3}{Solution}{6}{0}{2}
+\beamer@subsectionintoc {3}{1}{Total Number of outcomes}{7}{0}{2}
+\beamer@subsectionintoc {3}{2}{Probability of Success}{9}{0}{2}
+\beamer@subsectionintoc {3}{3}{Random Variable}{10}{0}{2}
+\beamer@subsectionintoc {3}{4}{PMF}{11}{0}{2}
+\beamer@subsectionintoc {3}{5}{CDF}{13}{0}{2}
